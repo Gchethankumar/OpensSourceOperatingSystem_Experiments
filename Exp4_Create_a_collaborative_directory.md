@@ -15,7 +15,9 @@ The option tells to create any parent directories that do not already exist. For
 The line [root@servera ~]# chgrp admin /common/admin changes the group ownership of the directory /common/admin to the group admin. The chgrp command is used to change the group ownership of a file or directory. In this case, the directory
 is given ownership by the
 
-3.Changing directory permissions group, which was likely created earlier. The line [root@servera ~]# chmod 770 /common/admin changes the permissions
+#### 3.Changing directory permissions 
+
+The line [root@servera ~]# chmod 770 /common/admin changes the permissions
 of the directory /common/admin. The chmod command is used to change the permissions of a file or directory. There are three sets of permissions: read, write, and execute. Each set of permissions applies to the owner of the file, the group that owns the file, and all other users on the system.
 In this case, the command sets the following permissions for /common/admin:
 •The owner (root) can read, write, and execute the directory (7).
