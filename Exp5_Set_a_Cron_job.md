@@ -18,11 +18,17 @@ Cron jobs use a specific format to define the schedule and command to be execute
 Each field is separated by a space and defines a specific value or range of values. An asterisk (*) in any field represents "all possible values" for that field.
 
 In this case, the cron job is defined as follows:
+
 •Minute: 30 - This means the job will run at the 30th minute of every hour.
+
 •Hour: 12 - This means the job will run at 12 o'clock.
+
 •Day of month:	- This wildcard symbol indicates that the job will run on every day of the month.
+
 •Month:	* - This wildcard symbol indicates that the job will run in every month of the year.
+
 •Day of week:	* - This wildcard symbol indicates that the job will run on every day of the week (Monday through Sunday).
+
 •Command: /bin/bash /home/harry/backup.sh - This specifies the command to be executed. The /bin/bash part tells the system to use the Bash shell to execute the /home/harry/backup.sh part specifies the path to the script that will be run.
 
 #### 3.Saving the crontab
