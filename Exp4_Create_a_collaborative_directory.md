@@ -19,9 +19,13 @@ is given ownership by the
 
 The line [root@servera ~]# chmod 770 /common/admin changes the permissions
 of the directory /common/admin. The chmod command is used to change the permissions of a file or directory. There are three sets of permissions: read, write, and execute. Each set of permissions applies to the owner of the file, the group that owns the file, and all other users on the system.
+
 In this case, the command sets the following permissions for /common/admin:
+
 •The owner (root) can read, write, and execute the directory (7).
+
 •The group can read, write, and execute the directory (7).
+
 •All other users cannot access the directory (0).
 
 #### 4. Setting a sticky bit
